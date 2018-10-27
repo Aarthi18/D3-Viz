@@ -1,0 +1,21 @@
+.chart {
+    height: 506px;
+}
+
+
+.axis path, .axis line {
+    fill: none;
+    stroke: #000;
+    shape-rendering: crispEdges;
+}
+
+.year.label {
+    font: 100px "Helvetica Neue";
+    fill: #ddd;
+}
+
+.overlay {
+    fill: none;
+    pointer-events: all;
+    cursor: ew-resize;
+}
